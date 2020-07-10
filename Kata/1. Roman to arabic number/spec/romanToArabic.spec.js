@@ -4,6 +4,8 @@ test('expect Roman number correctly converted to arabic', () => {
     expect(romanToArabicNumberConvert('XVII')).toBe(17);
     expect(romanToArabicNumberConvert('XXXV')).toBe(35);
     expect(romanToArabicNumberConvert('CL')).toBe(150);
+    expect(romanToArabicNumberConvert('IX')).toBe(9);
+    expect(romanToArabicNumberConvert('XI')).toBe(11);
 })
 
 test('expect Roman number is valid', () => {
@@ -17,4 +19,5 @@ test('expect Roman number is valid', () => {
 test('expect Roman number is correctly converted from lower case', () => {
     expect(romanToArabicNumberConvert('xii')).toBe(12);
     expect(romanToArabicNumberConvert('vcl')).toBe(145);
+    expect(romanToArabicNumberConvert('iX')).toBe(9);
 })
