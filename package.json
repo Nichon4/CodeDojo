@@ -1,0 +1,28 @@
+{
+  "name": "code-dojo",
+  "version": "1.0.0",
+  "description": "",
+  
+  "main": "index.js",
+  "scripts": {
+    "jest": "jest",
+    "test": "jest --watch"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "author": "Kochetkov Danil Alexandrovich (https://github.com/KochetkovDA)",
+   "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.2"
+  }
+}
